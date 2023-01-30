@@ -1,7 +1,7 @@
 # Damian_Cie
 Projekt zaliczeniowy na potrzeby przedmiotu Zarządzanie przedsięwzięciami informatycznymi. Powinien zawierać następujące punkty :  
 1. Utwórz repozytorium w serwisie github o nazwie 'nazwisko_imie'.
-Repozytorium w chwili utworzenia ma zawierać plik licencji oraz
+2. Repozytorium w chwili utworzenia ma zawierać plik licencji oraz
 README.md z krótkim opisem projektu.
 3. Zapisać zmiany w repozytorium, nadać etykietę 'init'.
 4. Dodać dwa pliki z rozszerzeniem *.h i dwa pliki z rozszerzeniem
