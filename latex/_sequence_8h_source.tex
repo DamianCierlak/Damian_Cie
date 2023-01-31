@@ -1,0 +1,39 @@
+\hypertarget{_sequence_8h_source}{}\doxysection{Sequence.\+h}
+\label{_sequence_8h_source}\index{Damian\_Cie/Sequence.h@{Damian\_Cie/Sequence.h}}
+\mbox{\hyperlink{_sequence_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef SEQUENCE\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define SEQUENCE\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{keyword}{class }\mbox{\hyperlink{class_sequence}{Sequence}}}
+\DoxyCodeLine{5 \{}
+\DoxyCodeLine{6 \textcolor{keyword}{public}:}
+\DoxyCodeLine{7     \textcolor{comment}{//konstruktor domyślny}}
+\DoxyCodeLine{8     \mbox{\hyperlink{class_sequence_a532b7e8df6ff6b2f990c14ae97859ca2}{Sequence}}();}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10     \textcolor{comment}{//konstruktor kopiujący}}
+\DoxyCodeLine{11     \mbox{\hyperlink{class_sequence_a8b38b0be5b5a62ec65b877c9a4e2faeb}{Sequence}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_sequence}{Sequence}}\& other);}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13     \textcolor{comment}{//destruktor}}
+\DoxyCodeLine{14     \mbox{\hyperlink{class_sequence_aee09a7d70c3ab523fed85da94ea1366f}{\string~Sequence}}();}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16     \textcolor{comment}{//funkcje dostępu do składowych}}
+\DoxyCodeLine{17     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_sequence_a47eb52bb7aa6b7426310996e5bba1e25}{getLength}}();}
+\DoxyCodeLine{18     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sequence_a0c95662f43b0849f2607c0710068726f}{setLength}}(\textcolor{keywordtype}{int} newLength);}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_sequence_a16ca4df8128b2282207c868835307700}{getElement}}(\textcolor{keywordtype}{int} index);}
+\DoxyCodeLine{21     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sequence_a89ebb7c96c6726d9f1421271a2d6ee1d}{setElement}}(\textcolor{keywordtype}{int} index, \textcolor{keywordtype}{int} newValue);}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23     \textcolor{comment}{//funkcje obliczeniowe}}
+\DoxyCodeLine{24     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_sequence_a39e9f07adf026e1ae9cd9ea8fdb22271}{calculateSum}}();}
+\DoxyCodeLine{25     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_sequence_a9b3ed21a7ffd32d38800ff45bc11b198}{calculateProduct}}();}
+\DoxyCodeLine{26     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_sequence_a308f289974a8a54da41d53436f463a0d}{calculateAverage}}();}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28 \textcolor{keyword}{private}:}
+\DoxyCodeLine{29     \textcolor{keywordtype}{int} length;}
+\DoxyCodeLine{30     \textcolor{keywordtype}{int}* data;}
+\DoxyCodeLine{31 \};}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// SEQUENCE\_H}}
+
+\end{DoxyCode}
